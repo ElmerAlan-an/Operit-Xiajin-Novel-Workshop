@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.operit.xiajin_novel",
+  "version": "0.3.0",
+  "author": "博士 & 安依诗",
+  "main": "main.js",
+  "display_name": { "zh": "夏瑾小说工坊", "en": "Xiajin Workshop" },
+  "description": { "zh": "Haruki写作引擎：思维链+白描+NSFW三档+对白强化。输入菜单7项开关，变量系统。", "en": "Haruki Engine: thinking chain + plain style + NSFW + dialogue." },
+  "subpackages": [
+    {
+      "id": "xiajin_novel_writer",
+      "entry": "packages/xiajin_novel_writer.js",
+      "enabled_by_default": true,
+      "display_name": { "zh": "写作引擎", "en": "Writing Engine" },
+      "description": { "zh": "模块开关与变量管理", "en": "Module toggle & variable management" }
+    }
+  ]
+}
